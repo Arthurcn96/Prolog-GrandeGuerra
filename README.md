@@ -22,4 +22,7 @@ ou então utilizando o [source pelo Github](https://github.com/SWI-Prolog/swipl-
 ### Windows
 No Windows deve ser baixado e executado o arquivo no [site](http://www.swi-prolog.org/download/daily/bin/)
 
+## Diagrama 
+![Diagrama do mundo](https://github.com/Arthurcn96/Prolog-GrandeGuerra/blob/master/ImagemComp.png)
+
 ## Dicionário de Dados
