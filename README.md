@@ -8,7 +8,9 @@ Prolog (Programação Lógica) é uma linguagem de programação que se enquadra
 
 ### Linux
 O prolog pode ser instalado utilizando a partir do repositório do sistema
+
 `sudo apt-get install swi-prolog`
+
 ou então utilizando o [source pelo Github](https://github.com/SWI-Prolog/swipl-devel)
 
 `git clone https://github.com/SWI-Prolog/swipl-devel.git`
