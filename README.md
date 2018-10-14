@@ -63,3 +63,22 @@ Indica que 'Pais' é o vencedor do 'Conflito'                      |`vencedor(Pa
 Indica que 'Pais' é o perdedor do 'Conflito'                      |`perdedor(Pais,Conflito).`
 Indica que 'Conflito' ocorreu na 'Data'                           |`ocorreu(Conflito, Data).`
 Indica que 'Conflito' teve a duracao de tanto 'Tempo'             |`duracao(Conflito,Tempo).`
+
+### Regras:
+
+Regra                                                                                              |Descrição
+:----:                                                                                             |:----
+pais(Pais):- eixo(Pais);aliado(Pais)                                                               |Para todo 'Pais', ele é um pais se faz parte da aliança ou eixo
+inimigo(Pais1 , Pais2):- (eixo(Pais1),aliado(Pais2);(eixo(Pais1),(eixo(Pais2)))                    |Para todo 'Pais1' ele é inimigo de 'Pais2' se 'Pais1' e alianca e 'Pais2' eixo, ou vice-versa
+envolvido(Pais,Conflito) :-conflito(Conflito),(vencedor(Conflito,Pais);perdedor(Conflito,Pais))    |Para todo 'Pais' ele está envolvido em 'Conflito' se 'Conflito' for um conflito e se'Pais' for um vencedor ou perdedor do conflito.
+consequencia(Pais,Mortos,Fato) :- mortes(Mortos,Batalha)                                           |Para todo 'Pais', e ele tem numero de 'Mortos' e as consequencia ‘Fatos', se os ‘Mortos’ fore, de uma ‘Batalha’.
+
+### Regras do CLI
+
+Regra                      |Descrição
+:---:                      |:---:
+qual_envolvido :-          |Dado um conflito passado no Input, mostra o pais envolvido.
+qual_data :-               |Dado um conflito passado no Input, mostra a data que ocorre o conflito.
+qual_vencedor :-           |Dado um conflito passado no Input, mosta o vencedor do conflito.
+qual_perdedor :-           |Dado um conflito passado no Input, mostra o perdedor do conflito.
+qual_alianca :-            |Dado um pais passado pelo Input, mostra qual alianca ele pertence.
