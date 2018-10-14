@@ -33,7 +33,7 @@ Eixo      |Aliado
 alemanha  |eua
 italia    |uniao_sovietica
 japao     |reino_unido
-          |china
+   \-      |china
 
 ### Conflitos
 
