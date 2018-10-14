@@ -27,6 +27,27 @@ No Windows deve ser baixado e executado o arquivo no [site](http://www.swi-prolo
 
 ## Dicionário de Dados
 
+### Pais
+Eixo      |Aliado
+:---:     |:---:
+alemanha  |eua
+italia    |uniao_sovietica
+japao     |reino_unido
+          |china
+
+### Conflitos
+
+Pais            |Conflito
+:---:           |:---:
+aliado          |primeira_guerra
+alemanha        |invasao_da_polonia
+japao           |pearl_harbor
+uniao_sovietica |stalingrado
+aliado          |normandia
+eua             |iwo_jima
+eua             |okinawa
+aliado          |segunda_guerra
+
 ### Predicados:
 
 Predicado                                                         |Função
