@@ -29,26 +29,16 @@ No Windows deve ser baixado e executado o arquivo no [site](http://www.swi-prolo
 
 ### Predicados:
 
-|Predicado|Função|
-:---:|:---:
-|Indica que 'Pais' faz parte do eixo|`eixo(Pais).`|
-:---:|:---:
-|Indica que 'Pais' faz parte alianca|`aliado(Pais).`|
-:---:|:---:
-|Indica que 'Alianca' é uma aliança ou nao (eixo\|aliado)|`alianca(Alianca).`|
-:---:|:---:
-|Indica que 'Historia' é o cenário historio do 'Pais' Pré-Guerra|`cenario_historico(Historia, Pais).`|
-:---:|:---:
-|Indica o 'Motivo' que causou o ataque do 'Pais'|`causou_ataque(Motivo,Pais).`|
-:---:|:---:
-|Indica que a 'Quantidade' de mortes no 'Conflito'|`mortes(Quantidade,Conflito).`|
-:---:|:---:
-|Indica que 'Conflito' é um conflito|`conflito(Conflito).`|
-:---:|:---:
-|Indica que 'Pais' é o vencedor do 'Conflito'|`vencedor(Pais,Conflito).`|
-:---:|:---:
-|Indica que 'Pais' é o perdedor do 'Conflito'|`perdedor(Pais,Conflito).`|
-:---:|:---:
-|Indica que 'Conflito' ocorreu na 'Data'|`ocorreu(Conflito, Data).`|
-:---:|:---:
-|Indica que 'Conflito' teve a duracao de tanto 'Tempo'|`duracao(Conflito,Tempo).`|
+Predicado                                                         |Função
+:---:                                                             |:---:
+Indica que 'Pais' faz parte do eixo                               |`eixo(Pais).`
+Indica que 'Pais' faz parte alianca                               | `aliado(Pais).`
+Indica que 'Alianca' é uma aliança ou nao (eixo\|aliado)          |`alianca(Alianca).`
+Indica que 'Historia' é o cenário historio do 'Pais' Pré-Guerra   |`cenario_historico(Historia, Pais).`
+Indica o 'Motivo' que causou o ataque do 'Pais'                   |`causou_ataque(Motivo,Pais).`
+Indica que a 'Quantidade' de mortes no 'Conflito'                 |`mortes(Quantidade,Conflito).`
+Indica que 'Conflito' é um conflito                               |`conflito(Conflito).`
+Indica que 'Pais' é o vencedor do 'Conflito'                      |`vencedor(Pais,Conflito).`
+Indica que 'Pais' é o perdedor do 'Conflito'                      |`perdedor(Pais,Conflito).`
+Indica que 'Conflito' ocorreu na 'Data'                           |`ocorreu(Conflito, Data).`
+Indica que 'Conflito' teve a duracao de tanto 'Tempo'             |`duracao(Conflito,Tempo).`
