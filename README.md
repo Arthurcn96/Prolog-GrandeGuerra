@@ -94,7 +94,11 @@ inicia_pais(Pais,Texto).   |Predicado que decide qual o país o usuário encorpo
 passado_"NomeDoPais"       |Imprime em tela o cenario_historico dos paises em questao.
 
 ## Utilização
-O código foi criado para ser usado como um contador de história, da segunda guerra, aonde você encorpora um país do eixo ou da aliança.
+O código foi criado para ser usado como um contador de história, da segunda guerra, aonde você encorpora um país do eixo ou da aliança.Para carregar o jogo no prolog, deve-se digitar no terminal
+
+``prolog meuPrograma.pl``
+
+A partir daqui, qualquer regra pode ser usada, lembrando que qualquer comando deve terminada com um "." e o comando para sair do prolog é `halt.`
 
 ### Inicio
  O início do jogo é ativado a partir da regra:
