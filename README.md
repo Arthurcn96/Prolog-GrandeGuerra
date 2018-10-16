@@ -82,3 +82,10 @@ qual_data :-               |Dado um conflito passado no Input, mostra a data que
 qual_vencedor :-           |Dado um conflito passado no Input, mosta o vencedor do conflito.
 qual_perdedor :-           |Dado um conflito passado no Input, mostra o perdedor do conflito.
 qual_alianca :-            |Dado um pais passado pelo Input, mostra qual alianca ele pertence.
+
+### Regras para o CLI
+
+Regra                      |Descrição
+:---:                      |:---:
+inicia_pais(Pais,Texto).   |Predicado que imprime na tela o "Voce entao encorpora o 'RepresentanteDoPais".
+passado_"NomeDoPais"       |Imprime em tela o cenario_historico dos paises em questao.
