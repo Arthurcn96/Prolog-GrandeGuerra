@@ -87,5 +87,24 @@ qual_alianca :-            |Dado um pais passado pelo Input, mostra qual alianca
 
 Regra                      |Descrição
 :---:                      |:---:
-inicia_pais(Pais,Texto).   |Predicado que imprime na tela o "Voce entao encorpora o 'RepresentanteDoPais".
+inicia_pais(Pais,Texto).   |Predicado que decide qual o país o usuário encorpora.
 passado_"NomeDoPais"       |Imprime em tela o cenario_historico dos paises em questao.
+
+## Utilização
+O código foi criado para ser usado como um contador de história, da segunda guerra, aonde você encorpora um país do eixo ou da aliança.
+
+### Inicio
+ O início do jogo é ativado a partir da regra:
+
+
+``inicio.``
+
+### Regras para utilização
+      
+Regra                               |Descrição
+:---:                               |:---:
+escolha_N                           |É a interface numero (N), referente as escolhas que você faz no momento.
+escolha_passado:-                   |Dado o Input, retorna o cenario historico antes da Segunda Grande Guerra.
+consequencia_’Pais’                 |Uma regra de um consequencia de um determinado conflito, apenas chama e imprime a consequencia do ‘Pais’ referente (ex: consequencia_polonia, consequencia_pearl_harbor)
+atacar_’Pais’ ou invadir_polonia    |Apesar de fazerem basicamente a mesma coisa, que é imprimir os predicados de ‘ocorreu’ ,’duracao’, ’vencedor’ ,’perdedor’ referente ao ‘Pais’, recebem nomes diferentes simplismente para melhor entendimento.
+atualizacao_’Pais’                  |Usa dos mesmo predicados que “atacar_’Pais’” com exceção de ‘vencedor’ e ‘perdedor’.
