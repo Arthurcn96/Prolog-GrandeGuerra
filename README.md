@@ -64,6 +64,9 @@ Indica que 'Pais' é o perdedor do 'Conflito'                      |`perdedor(Pa
 Indica que 'Conflito' ocorreu na 'Data'                           |`ocorreu(Conflito, Data).`
 Indica que 'Conflito' teve a duracao de tanto 'Tempo'             |`duracao(Conflito,Tempo).`
 
+![exemplo1](https://github.com/Arthurcn96/Prolog-GrandeGuerra/blob/master/img/eixo_aliado.gif)
+![exemplo2](https://github.com/Arthurcn96/Prolog-GrandeGuerra/blob/master/img/eixo_Aliado.gif)
+
 ### Regras:
 
 Regra                                                                                              |Descrição
@@ -98,6 +101,8 @@ O código foi criado para ser usado como um contador de história, da segunda gu
 
 
 ``inicio.``
+
+![exemplo inicio](https://github.com/Arthurcn96/Prolog-GrandeGuerra/blob/master/img/inicio.gif)
 
 ### Regras para utilização
       
